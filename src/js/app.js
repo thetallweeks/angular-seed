@@ -1,4 +1,5 @@
-'use strict';
+(function() {
+  'use strict';
 
 
 // Declare app level module which depends on filters, and services
@@ -30,3 +31,4 @@ app.config(['$routeProvider', function($routeProvider) {
     }
   );
 }]);
+})();
