@@ -8,8 +8,8 @@
     // AngularFire $add method
     $scope.people.$add($scope.newPerson);
     $scope.newPerson = "";
-  }
-}
+  };
+};
 
 controller.$inject = ['$scope', '$firebase', 'firebaseUrl'];
 angular.module('app').controller(controllerId, controller);
